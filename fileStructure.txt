@@ -1,0 +1,59 @@
+my-react-app/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── images/
+│       └── styles/
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   │       └── global.css
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.js
+│   │   │   ├── Input.js
+│   │   │   └── ...
+│   │   ├── layout/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   └── Sidebar.js
+│   │   ├── pages/
+│   │   │   ├── HomePage.js
+│   │   │   ├── AboutPage.js
+│   │   │   ├── ContactPage.js
+│   │   │   └── ...
+│   │   └── ...
+│   ├── context/
+│   │   ├── AppContext.js
+│   │   └── AuthContext.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   ├── useFetch.js
+│   │   └── ...
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── auth.js
+│   │   └── ...
+│   ├── store/
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   └── ...
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   └── ...
+│   │   ├── store.js
+│   │   └── ...
+│   ├── utils/
+│   │   ├── helpers.js
+│   │   └── validators.js
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js
+│   └── ...
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+
